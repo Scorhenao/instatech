@@ -54,6 +54,17 @@ Como usuario quiero poder registrarme, iniciar session, tener acceso a productos
     - El usuario debe recibir actualizaciones sobre el estado de sus solicitudes de soporte técnico.
 
 
+## Encarpetado
+
+1. src
+    - auth
+    - users
+    - products
+    - orders
+    - support
+    - common
+    - database
+
 ## tecnicos
 Como tecnico quiero poder registrarme e iniciar session por medio de una seccion trabaja con nosotros donde demuestre consistencia con mis conocimientos y un contrato con terminos y condiciones, quiero que la aplicacion me muestre notificaciones de instalaciones de productos o servicios tecnicos que vayan acorde con mis conocimientos, personalizar mi perfil y poder decidir si quiero o no tomar los trabajos, ademas cada en la aplicacion quiero una opcion de fuera de servicio o en servicio para evitar notificaciones cuando no estoy trabajando.
 
