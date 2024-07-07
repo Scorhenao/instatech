@@ -198,7 +198,6 @@ Como administrador quiero poder tener una cuenta en donde reciba cada peticion d
 11. **Seguridad y Privacidad**:
     - El acceso a la sección de administración debe estar protegido con autenticación de dos factores para garantizar la seguridad.
     - Las acciones realizadas por los administradores deben ser registradas y auditadas para mantener la transparencia y responsabilidad.
-    -
 
 12. **Privacidad de Datos**:
     - La información en los perfiles de los administradores y las decisiones tomadas deben ser accesibles solo para otros administradores.
