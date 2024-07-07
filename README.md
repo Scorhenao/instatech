@@ -84,7 +84,6 @@ Como tecnico quiero poder registrarme e iniciar session por medio de una seccion
 6. **Personalización del Perfil**:
     - El técnico puede acceder a una sección de perfil donde puede ver y editar su información personal, experiencia y conocimientos.
     - El técnico puede actualizar su foto de perfil y otros detalles relevantes.
-    -
 
 7. **Decisión sobre Trabajos**:
     - La aplicación debe permitir al técnico aceptar o rechazar trabajos propuestos.
@@ -108,6 +107,50 @@ Como tecnico quiero poder registrarme e iniciar session por medio de una seccion
 Como provedor quiero poder registrarme a iniciar sesion por medio de una seccion de trabaja con nosotros donde ponga datos de mi empresa para demostrar consistencia de los productos con un terminos y condiciones, quiero que la aplicacion luego de que me verifique y me den permiso para mostrar mis productos me den un porcentaje de ganancia del producto y quiero poder actualizar los mismos.
 
 ### criterios de aceptacion de provedores
+
+1. **Trabaja con Nosotros**:
+    - El proveedor puede acceder a una sección dedicada en la aplicación llamada "Trabaja con Nosotros".
+    - Esta sección debe incluir información sobre los requisitos y beneficios de trabajar como proveedor.
+
+2. **Registro**:
+    - El proveedor puede registrarse completando un formulario con los datos de su empresa, incluyendo nombre, dirección, productos ofrecidos, y otra información relevante.
+    - El formulario debe incluir una sección para adjuntar documentos de respaldo (por ejemplo, certificaciones de productos).
+    - El proveedor debe aceptar los términos y condiciones antes de poder registrarse.
+    - La aplicación debe validar los datos ingresados y proporcionar retroalimentación si algún campo es incorrecto o está incompleto.
+    - El proveedor debe recibir una confirmación de registro exitoso y notificación de que su cuenta está en proceso de verificación.
+    -
+
+3. **Verificación y Permiso para Mostrar Productos**:
+    - La aplicación debe tener un proceso para verificar los datos y documentos proporcionados por el proveedor.
+    - El proveedor debe recibir una notificación una vez que su cuenta haya sido verificada y aprobada.
+
+4. **Permiso para Mostrar Productos**:
+    - Solo los proveedores verificados deben tener permiso para listar y mostrar sus productos en la aplicación.
+    - El proveedor debe recibir una notificación de aprobación y acceso a una sección donde puede gestionar sus productos.
+
+5. **Gestión de Productos**:
+    - El proveedor debe tener acceso a una sección de la aplicación donde puede agregar, editar y eliminar productos.
+    - El formulario de adición de productos debe permitir ingresar detalles como nombre, categoría, precio, y descripción del producto.
+    - El proveedor debe poder actualizar la información de sus productos en cualquier momento.
+    - La aplicación debe reflejar los cambios en tiempo real para los usuarios finales.
+
+6. **Porcentaje de Ganancia**:
+    - La aplicación debe calcular automáticamente el porcentaje de ganancia del proveedor por cada venta realizada.
+    - El proveedor debe poder ver un desglose de sus ganancias por producto vendido en una sección dedicada.
+    - El proveedor debe tener acceso a un panel donde puede ver sus ganancias acumuladas, ventas recientes, y estadísticas de productos.
+    - La información debe ser clara y fácilmente accesible.
+
+7. **Términos y Condiciones**:
+    - El proveedor debe aceptar un contrato con términos y condiciones antes de poder listar sus productos.
+    - El contrato debe estar accesible desde el perfil del proveedor para consulta en cualquier momento.
+
+8. **Consistencia y Validación de Datos**:
+    - La aplicación debe verificar la consistencia y autenticidad de los datos proporcionados por el proveedor.
+    - Los proveedores deben recibir notificaciones si se requiere información adicional para completar la verificación.
+
+9. **Notificaciones y Actualizaciones**:
+    - El proveedor debe recibir notificaciones sobre el estado de su registro, la aprobación de sus productos y cualquier cambio en las políticas de la aplicación.
+    - La aplicación debe enviar notificaciones oportunas sobre ventas realizadas y actualizaciones de estado de productos.
 
 ## administradores
 Como administrador quiero poder tener una cuenta en donde reciba cada peticion de trabaja con nosotros y tenga un perfil privado que solo puedan ver otros administradores, quiero permitir o denegar acceso a usuarios,tecnicos u provedores segun vea necesario y decidir si permitir o no que alguien use la aplicacion ademas me gustaria poder generar reportes de lo que hago que se envien por email o que esten en una seccion de administradosres donde todos podamos ponernos deacuerdo y dialogar con estos
