@@ -118,7 +118,6 @@ Como provedor quiero poder registrarme a iniciar sesion por medio de una seccion
     - El proveedor debe aceptar los términos y condiciones antes de poder registrarse.
     - La aplicación debe validar los datos ingresados y proporcionar retroalimentación si algún campo es incorrecto o está incompleto.
     - El proveedor debe recibir una confirmación de registro exitoso y notificación de que su cuenta está en proceso de verificación.
-    -
 
 3. **Verificación y Permiso para Mostrar Productos**:
     - La aplicación debe tener un proceso para verificar los datos y documentos proporcionados por el proveedor.
@@ -156,3 +155,50 @@ Como provedor quiero poder registrarme a iniciar sesion por medio de una seccion
 Como administrador quiero poder tener una cuenta en donde reciba cada peticion de trabaja con nosotros y tenga un perfil privado que solo puedan ver otros administradores, quiero permitir o denegar acceso a usuarios,tecnicos u provedores segun vea necesario y decidir si permitir o no que alguien use la aplicacion ademas me gustaria poder generar reportes de lo que hago que se envien por email o que esten en una seccion de administradosres donde todos podamos ponernos deacuerdo y dialogar con estos
 
 ### criterios de aceptacion administrador
+
+1. **Registro e inicio de session**
+    -Un administrador debe tener la posibilidad de crear cuentas exclusivas para administradores.
+    - Las cuentas de administradores deben ser verificadas y aprobadas por este administrador antes de su activación.
+
+2. **Gestión de Solicitudes de "Trabaja con Nosotros"**:
+    - Los administradores deben recibir notificaciones de todas las solicitudes de registro de técnicos y proveedores en la sección "Trabaja con Nosotros".
+    - Las solicitudes deben ser accesibles desde un panel de administración para su revisión.
+
+3. **Revisión y Acción sobre Solicitudes:**:
+    - Los administradores deben poder revisar los detalles de cada solicitud y tomar decisiones de aprobación o denegación.
+    - La acción tomada (aprobación o denegación) debe ser registrada y notificada al solicitante.
+
+4. **Gestión de Usuarios**:
+    - Los administradores deben tener la capacidad de permitir o denegar el acceso a técnicos y proveedores.
+    - Deben poder revocar el acceso a cualquier cuenta existente en cualquier momento, si se considera necesario.
+
+5. **Gestión de Cuentas**:
+    - Los administradores deben poder ver, editar y eliminar cuentas de usuarios, técnicos y proveedores desde el panel de administración.
+
+6. **Perfil Privado de Administradores**:
+    - Cada administrador debe tener un perfil privado visible solo para otros administradores.
+    - El perfil debe incluir información básica y una sección de contacto interna.
+
+7. **Generación de Reportes**:
+    - Los administradores deben poder generar reportes detallados de sus actividades, incluyendo aprobaciones, denegaciones y cambios realizados en las cuentas de usuarios.
+    - Los reportes deben poder enviarse por email o guardarse en una sección dedicada para administradores.
+
+8. **Comunicación y Coordinación entre Administradores**:
+    - Debe haber una sección dedicada para la comunicación entre administradores.
+    - Los administradores deben poder subir y compartir reportes en esta sección.
+
+9. **Sistema de Mensajería Interna**:
+    - Los administradores deben tener un sistema de mensajería interna para discutir temas y decisiones relacionadas con la gestión de la aplicación.
+    - La mensajería debe permitir conversaciones individuales y en grupo.
+
+10. **Notificaciones y Actualizaciones**:
+    - Los administradores deben recibir notificaciones en tiempo real sobre nuevas solicitudes, decisiones pendientes y cualquier otra actividad relevante.
+    - Las notificaciones deben ser claras y específicas para cada tipo de actividad.
+
+11. **Seguridad y Privacidad**:
+    - El acceso a la sección de administración debe estar protegido con autenticación de dos factores para garantizar la seguridad.
+    - Las acciones realizadas por los administradores deben ser registradas y auditadas para mantener la transparencia y responsabilidad.
+    -
+
+12. **Privacidad de Datos**:
+    - La información en los perfiles de los administradores y las decisiones tomadas deben ser accesibles solo para otros administradores.
